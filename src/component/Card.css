@@ -1,0 +1,25 @@
+.outer-container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#FFA3FD, rgb(162,26,183));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container{
+    width: 20%;
+    padding: 50px;
+    border-radius: 25px;
+    background-color:rgb(161, 46, 196);
+    color: white;
+    box-shadow: 0px 0px 20px black;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+ 
