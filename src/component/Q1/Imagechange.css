@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box{
+    width: 50%;
+    height: 50%; 
+    border: 1px solid black;
+    display: flex;
+}
+
+.image-part,
+.btn-part{
+    height: 100%;
+    width: 100%;
+    border: 1px solid rebeccapurple;
+}
+
+.image-part img{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn-part button{
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 8px;
+}

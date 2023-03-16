@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.outer-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main-container{
+    width: 32%;
+    /* border: 1px solid black; */
+    align-self: auto;
+    padding:30px 60px;
+    box-shadow: 0 0 10px grey;
+    margin: 50px 0px;
+}
+h1{
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+ p{
+    margin: 5px 0px 30px 0px;
+    font-size: 14px;
+}
+label{
+    display: block;
+    margin: 5px 0px;
+}
+
+.input-field input{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 8px 15px;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+}
+.input-field{
+    margin-bottom: 15px;
+}
+
+.loginbtn{
+    width: 100%;
+    padding: 12px 15px;
+    text-align: center;
+    margin:20px 0px;
+    background-color:#3d63ca;
+    color: white;
+    border-radius: 8px;
+    font-weight: 400;
+    border-style: none;
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+}
+.divide{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.divide hr{
+    width: 45%;
+    height: 0px;
+}
+.divide p{
+    padding-top: 19px;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+}
+.link button{
+    width: 48%;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 0px solid ;
+    background-color: transparent;
+    box-shadow: 0 0 1px grey;
+    display: flex;
+    align-items: center;
+}
+
+.signup{
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 0px;
+}
+.signup span{
+    color: blue;
+}
+.checkme input{
+    margin-right: 10px;
+}
+.checkme input:checked{
+    background-color: blue;
+    color:white;
+}
+.grey{
+    color: grey;
+}
+.remember a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.link img{
+    height: 25px;
+    width: 25px;
+    padding-right: 5px;
+}
+

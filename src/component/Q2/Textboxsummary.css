@@ -1,0 +1,14 @@
+.field-comp-container{
+    width: 100vw;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field-comp-container textarea{
+    font-size: 24px;
+    margin: 10px 0;
+    padding: 20px;
+}
