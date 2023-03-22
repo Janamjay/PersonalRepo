@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 19%;
+    padding: 20px;
+    border-radius: 25px;
+    background-color:rgb(244, 235, 235);
+    color: rgb(16, 15, 15);
+    margin: 10px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.aboutMentors{
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+.aboutMentors p{
+    padding-top: 10px;
+}
+
+.mentors{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}

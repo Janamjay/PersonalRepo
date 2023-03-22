@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 100vw;
+	height: 100vh;
+	background-color:cyan;
+}
+
+.heading{
+	text-align: center;
+	color: #E84D8A;
+}
+
+table td{
+	border: transparent;
+	border-radius: 10px;
+	text-align: center;
+	color: #64C5EB;
+	font-size: 30px;
+	width: 100px;
+	height: 100px;
+	background-color:wheat;
+}
+
+.container{
+	/* width: 100%; */
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.winner{
+	margin-top: 10px;
+	font-size: 20px;
+	color: #E84D8A;
+}
+.playAgain{
+	margin: 5px 0px;
+	padding: 10px 20px;
+	align-items: center;
+	margin-left: 60px;
+	border: none;
+	background-color: red;
+	color:yellow;
+	border-radius: 14px;
+}
+.creator{
+	margin-top: 20px;
+}
