@@ -26,6 +26,30 @@ export default function Card() {
         name: "Roushan Singh",
         designation: "Project Manager @ Google india",
         experience: "4 Years"
+    }
+        , {
+        image: "https://media.licdn.com/dms/image/D5635AQHk2h67ChuhNw/profile-framedphoto-shrink_800_800/0/1678079627007?e=1680105600&v=beta&t=-R5KawMpZx-VjUD_2YM6L9H_JoynP_mtgOo1UG_Sh-M",
+        name: "Roushan Singh",
+        designation: "Project Manager @ Google india",
+        experience: "4 Years"
+    }
+        , {
+        image: "https://media.licdn.com/dms/image/D5635AQHk2h67ChuhNw/profile-framedphoto-shrink_800_800/0/1678079627007?e=1680105600&v=beta&t=-R5KawMpZx-VjUD_2YM6L9H_JoynP_mtgOo1UG_Sh-M",
+        name: "Roushan Singh",
+        designation: "Project Manager @ Google india",
+        experience: "4 Years"
+    }
+        , {
+        image: "https://media.licdn.com/dms/image/D5635AQHk2h67ChuhNw/profile-framedphoto-shrink_800_800/0/1678079627007?e=1680105600&v=beta&t=-R5KawMpZx-VjUD_2YM6L9H_JoynP_mtgOo1UG_Sh-M",
+        name: "Roushan Singh",
+        designation: "Project Manager @ Google india",
+        experience: "4 Years"
+    }
+        , {
+        image: "https://media.licdn.com/dms/image/D5635AQHk2h67ChuhNw/profile-framedphoto-shrink_800_800/0/1678079627007?e=1680105600&v=beta&t=-R5KawMpZx-VjUD_2YM6L9H_JoynP_mtgOo1UG_Sh-M",
+        name: "Roushan Singh",
+        designation: "Project Manager @ Google india",
+        experience: "4 Years"
     }]
     return (
         <>
@@ -33,13 +57,15 @@ export default function Card() {
                 <h1>Know Your Mentors</h1>
                 <p>Work with a mentor(senior data scientists from top companies) who closely looks at your progress, gives you personalized feedback and helps and helps you fill gaps in your knowledge</p>
             </div>
-            <div className={style.mentors}>
-                {cardProfile.map((data) => {
-                    return (
-                        <Horizontal image={data.image} name={data.name} designation={data.designation} experience={data.experience} />
-                    )
-                }
-                )}
+            <div className={style.main_container}>
+                <div className={style.mentors}>
+                    {cardProfile.map((data) => {
+                        return (
+                            <Horizontal image={data.image} name={data.name} designation={data.designation} experience={data.experience} />
+                        )
+                    }
+                    )}
+                </div>
             </div>
         </>
     )
