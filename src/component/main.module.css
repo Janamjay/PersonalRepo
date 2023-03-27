@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navbar css */
+
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem ;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.917);
+  }
+  
+  .navbar__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar__logo a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .navbar__links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;  
+    cursor: pointer;
+  }
+  
+  .navbar__links li {
+    margin: 0 1rem;
+  }
+  
+  .navbar__links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .navbar__links a:hover {
+    color: #666;
+  }
+  
+/* Homepage css */
+
+
+.main_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 25px ;
+}
+.content_section{
+    width: 50%;
+    padding: 25px 0pc 20px 20px;
+}
+.free{
+    font-size: 25px;
+}
+.content_section h2{
+    font-size: 4rem;
+}
+
+.image_bg{
+    width: 50%;
+}
+
+.content_section span{
+    color: orange;
+}
+.content{
+    margin-top: 10px;
+    font-size: 30px;
+    line-height: 1.5;
+}
+.image_bg img{
+    width: 100%;
+    height: 450px;
+    border-radius: 14px;
+}
+.content_section button{
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.btn_getStared{
+    border: transparent;
+    padding: 15px 35px;
+}
+.btn_getStared:hover{
+    background-color: antiquewhite;
+}
+.btn_howToUse{
+    padding: 15px 35px;
+    border: 2px solid  orange;
+}

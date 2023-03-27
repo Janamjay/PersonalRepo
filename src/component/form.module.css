@@ -1,0 +1,88 @@
+
+/* Login/SignUp */
+
+.outer_container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #637bbf;
+    
+  }
+  
+  .main_container{
+    width: 32%;
+    align-self: auto;
+    padding:30px 60px;
+    box-shadow: 0 0 10px grey;
+    margin: 50px 0px;
+    background-color: aliceblue;
+  }
+  h1{
+    margin-bottom: 5px;
+    font-weight: 700;
+  }
+  p{
+    margin: 5px 0px 30px 0px;
+    font-size: 14px;
+  }
+  label{
+    display: block;
+    margin: 5px 0px;
+  }
+  
+  .input_field input{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 8px 15px;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+  }
+  .input_field{
+    margin-bottom: 15px;
+  }
+  
+  .loginbtn{
+    width: 100%;
+    padding: 12px 15px;
+    text-align: center;
+    margin:20px 0px;
+    background-color:#3d63ca;
+    color: white;
+    border-radius: 8px;
+    font-weight: 400;
+    border-style: none;
+  }
+  .remember{
+    display: flex;
+    justify-content: space-between;
+  }
+
+ 
+  .signup{
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 0px;
+  }
+  .signup span{
+    color: blue;
+    cursor: pointer;
+  }
+  .checkme input{
+    margin-right: 10px;
+  }
+  .checkme input:checked{
+    background-color: blue;
+    color:white;
+  }
+  .grey{
+    color: grey;
+  }
+  .remember a{
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  
+  
