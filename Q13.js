@@ -27,5 +27,5 @@ function romanToInt(s) {
     
     return result;
 };
-console.log(romanToInt("IX"))
+console.log(romanToInt("L"))
 

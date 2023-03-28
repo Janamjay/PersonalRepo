@@ -9,4 +9,4 @@ function  strStr(haystack, needle) {
 
 };
 
-console.log(strStr("sadbutsad","sad"))
+console.log(strStr("sadbutsaad","saad"))
