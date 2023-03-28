@@ -9,7 +9,7 @@ export default function Navbar() {
         <div>
             <nav className={navBar.navbar}>
                 <div className={navBar.navbar__logo}>
-                    <a href="/">FrontEnd Developer</a>
+                    <h3 onClick={()=> navigate("/")}>FrontEnd Developer</h3>
                 </div>
                 <ul className={navBar.navbar__links}>
                     <li onClick={()=> navigate("/")} >Home</li>

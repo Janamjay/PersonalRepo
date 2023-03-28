@@ -21,9 +21,10 @@
     font-weight: bold;
   }
   
-  .navbar__logo a {
+  .navbar__logo h3 {
     color: #333;
     text-decoration: none;
+    cursor: pointer;
   }
   
   .navbar__links {
@@ -39,16 +40,16 @@
     margin: 0 1rem;
   }
   
-  .navbar__links a {
+  .navbar__links li {
     color: #333;
     text-decoration: none;
     font-size: 1.2rem;
   }
   
-  .navbar__links a:hover {
-    color: #666;
+  .navbar__links li:hover {
+    color: red;
   }
-  
+
 /* Homepage css */
 
 

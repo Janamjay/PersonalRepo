@@ -24,7 +24,7 @@ export default function Register() {
             <label className={sign.grey} htmlFor="">Password</label>
             <input type="password" name="pass" id="" placeholder='***********' />
           </div>
-          <button className={sign.loginbtn}>Register</button>
+          <button className={sign.loginbtn} onClick={() => navigate("/login")}>Register</button>
           <div className={sign.signup}>
             <p className={sign.grey}> Already have account ? <span onClick={() => navigate("/login")}>Login</span></p>
           </div>
