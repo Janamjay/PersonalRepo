@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/27/07/32/clouds-1282314_960_720.jpg");
+    background-size: 100% 100%;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 26rem;
+    width: 50rem;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px 1px #333;  
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+  }
+  .heading_txt{
+    color:#472183;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px;
+    text-align: center;
+  }
+  .question{
+    margin:8px;
+    box-shadow: 0px 0px 10px 1px #a2a3a3;
+    border-radius: 5px;
+    padding:5px 20px;
+    font-size: 23px;
+    font-weight: 700;
+    min-width: 100%;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .question_number{
+    margin-right: 15px;
+  }
+  .option_container{
+    display: flex;
+    flex-direction: column;
+    margin:6px 4px;    
+    width: 100%;
+    padding: 10px;
+  }
+
+  .option_btn{
+    box-shadow: 0px 0px 10px rgb(128, 123, 123);
+    padding: 5px;
+    border-radius: 3px;
+    border:none;
+    outline: none;
+    transition: 0.3s;
+    margin: 5px;
+    min-height: 30px;
+    background-color: white;
+  }
+  
+  .checked{
+    background-color: rgb(225, 18, 28);
+    color:white;
+  }
+  .option_btn:hover{
+    background-color: rgb(177, 60, 60);
+    color:white;
+  }
+  .next_button{
+    padding:10px;
+    border:none;
+    background-color:#2299e8 ;
+    color:white;
+    border-radius: 14px;
+    box-shadow: 0px 0px  10px black;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.2s;
+    width:8em;
+    position: absolute;
+    bottom: 15px;
+  }
+  .next_button:active{
+    box-shadow:none;    
+  }
+  .result h1{
+    margin-top: 40px;
+    font-size: 50px;
+    color: red;
+  }
+  .show_score{
+    position: absolute;
+    top:30%;
+    font-size: 40px;
+    text-align: center;  
+  }
+  .author{
+    margin-top: 3em;
+    text-align: center;
+  }
