@@ -4,16 +4,20 @@ import { QuizData } from '../Data/QuizData'
 import QuizResult from './QuizResult';
 function Quiz() {
     const [currentQuestion, setCurrentQuestion] = useState(0);
-    const [ui, setUi] = useState(true);
+    const [update, setUpdate] = useState(true);
     const score = useRef(0)
     const [clickedOption, setClickedOption] = useState(0);
     const [showResult, setShowResult] = useState(false);
+    const [next, setNext] = useState("Next")
 
     const changeQuestion = () => {
         updateScore();
         if (currentQuestion < QuizData.length - 1) {
             setCurrentQuestion(currentQuestion + 1);
             setClickedOption(0);
+
+            if(currentQuestion === QuizData.length - 2)
+                setNext("Submit")
         } else {
             setShowResult(true)
         }
@@ -21,7 +25,7 @@ function Quiz() {
     const updateScore = () => {
         if (clickedOption === QuizData[currentQuestion].answer) {
             score.current += 2
-            setUi(!ui);
+            setUpdate(!update);
         }
     }
     const resetAll = () => {
@@ -55,7 +59,7 @@ function Quiz() {
                                 )
                             })}
                         </div>
-                        <input type="button" value="Next" className={quiz.next_button} onClick={changeQuestion} />
+                        <input type="button" value={next} className={quiz.next_button} onClick={changeQuestion} />
                     </>)}
             </div>
             <div className={quiz.author}>

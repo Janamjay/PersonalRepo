@@ -11,7 +11,11 @@ function QuizResult(props) {
         Your Score:{props.score}<br />
         Total Score:{props.totalScore}
       </div>
-      <button className={result.next_button} onClick={props.tryAgain}>Try Again</button>
+      {
+        (props.score >= 12) ?
+          <h2 className={result.greet}>Nice Work! You passed the test.</h2> :
+          <button className={result.next_button} onClick={props.tryAgain}>Try Again</button>
+      }
     </>
   )
 }
