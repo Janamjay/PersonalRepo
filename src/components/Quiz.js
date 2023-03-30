@@ -3,12 +3,12 @@ import quiz from './quiz.module.css'
 import { QuizData } from '../Data/QuizData'
 import QuizResult from './QuizResult';
 function Quiz() {
-    const [currentQuestion, setCurrentQuestion] = useState(0);
-    const [update, setUpdate] = useState(true);
-    const score = useRef(0)
-    const [clickedOption, setClickedOption] = useState(0);
-    const [showResult, setShowResult] = useState(false);
-    const [next, setNext] = useState("Next")
+    const [currentQuestion, setCurrentQuestion] = useState(0); // for accessing current question index
+    const [update, setUpdate] = useState(true); //to update UI or re-rendring
+    const score = useRef(0); // for storing marks
+    const [clickedOption, setClickedOption] = useState(0); //for storing clicked option of questions
+    const [showResult, setShowResult] = useState(false); //for QuizResult Component
+    const [next, setNext] = useState("Next"); //for next button
 
     const changeQuestion = () => {
         updateScore();
