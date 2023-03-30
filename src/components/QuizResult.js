@@ -14,7 +14,10 @@ function QuizResult(props) {
       {
         (props.score >= 12) ?
           <h2 className={result.greet}>Nice Work! You passed the test.</h2> :
+          <>
+          <h2 className={result.greet}>Better luck for next time!!</h2> 
           <button className={result.next_button} onClick={props.tryAgain}>Try Again</button>
+          </>
       }
        <button className={result.next_button} onClick={props.tryAgain}>Try Again</button>
     </>
