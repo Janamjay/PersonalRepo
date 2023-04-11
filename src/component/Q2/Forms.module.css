@@ -1,0 +1,62 @@
+.main_background{
+    background-color: orange;
+    width: 98vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+.main_background > h1{
+    text-align: center;
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.field{
+    background-color: lightgreen;
+    width: 46%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.field input{
+    padding: 3px 8px;
+    border-radius: 8px;
+    margin-left: 5px;
+    border: none ;
+}
+.field button{
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+.visible{
+    background-color: lightgreen;
+    width: 46%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.output{
+    background-color: rgb(177, 231, 41);
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px 0;
+}
+.output table{
+    width: 100%;
+}
+
+.output table,th,td{
+    border: 1px solid grey;
+    padding: 5px;
+}
+.output table tbody tr:nth-child(odd) {
+    background-color: #D6EEEE;
+  }
+.output table tbody tr td{
+    text-align: center;
+}
