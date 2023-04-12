@@ -2,7 +2,7 @@ export const product = [
     {
       title: "Sugar",
       value: "sugar",
-      price: 30
+      price: 40
     },
     {
       title: "Oats",
@@ -12,11 +12,11 @@ export const product = [
     {
       title: "Coffee",
       value: "coffee",
-      price: 70
+      price: 50
     },
     {
       title: "Snacks",
       value: "snacks",
-      price: 150
+      price: 70
     },
   ];

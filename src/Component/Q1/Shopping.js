@@ -41,7 +41,7 @@ export default function Shopping() {
     return (
         <div className={shop.user}>
 
-            <h1>Billing </h1>
+            <h1>Billing Form</h1>
             <p>Customer Name</p>
             <input type="text" placeholder="Customer Name" onChange={(e) => setName(e.target.value)} required='required' />
 
@@ -118,7 +118,6 @@ function DisplayData() {
     return (
         <div className={shop.bill}>
             <table border='1px'>
-
                 <thead>
                     <tr>
                         <th colSpan='3'>
