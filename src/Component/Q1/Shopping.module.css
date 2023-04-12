@@ -1,0 +1,40 @@
+.select{
+    width: 50%;
+    display: inline-table;
+    margin: 30px;
+}
+.user{
+    margin: 20px;
+}
+
+.add{
+    display: inline-block;
+    color: white;
+    background-color: red;
+    padding: 7px 10px;
+    border-radius: 7px;
+    margin-left: 40px;
+}
+
+.bill{
+    margin: 20px;
+}
+.createbill{
+    margin: 20px 0;
+}
+.btn{
+    color: white;
+    background-color: red;
+    padding: 7px 30px;
+    border-radius: 7px;
+    margin-left: 40px;
+}
+.bill > table{
+    width: 100%;
+    text-align: left;
+}
+.bill > h3{
+    text-align: center;
+    margin-top: 10px;
+    color: blue;
+}
