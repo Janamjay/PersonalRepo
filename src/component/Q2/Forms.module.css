@@ -60,3 +60,10 @@
 .output table tbody tr td{
     text-align: center;
 }
+
+.active{
+    display: inline;
+}
+.nonactive{
+    display: none;
+}
