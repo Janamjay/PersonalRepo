@@ -82,6 +82,7 @@ function Cart() {
     return (
         <>
             <hr />
+            <hr />
             <div className={shop.select}>
                 <table cellSpacing="5px" cellPadding='10px' >
                     <tbody>
