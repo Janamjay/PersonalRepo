@@ -80,30 +80,31 @@ function Cart() {
         setProductQty(e.target.value)
     }
     return (
-       <>
-       <hr />
-        <div className={shop.select}>
-            <table cellSpacing="5px" cellPadding='10px' border="1px">
-                <tbody>
-                    <tr>
-                        <td>
-                            <p>Select Product</p>
-                            <select name="" onChange={handleSelectChange}>
-                                <option key="default" value="products" >Products</option>
-                                {product.map((option) => (
-                                    <option key={option.value} value={option.value}>{option.title}</option>
-                                ))}
-                            </select>
-                        </td>
+        <>
+            <hr />
+            <div className={shop.select}>
+                <table cellSpacing="5px" cellPadding='10px' >
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>Select Product</p>
+                                <select name="" onChange={handleSelectChange}>
+                                    <option key="default" value="products" >Products</option>
+                                    {product.map((option) => (
+                                        <option key={option.value} value={option.value}>{option.title}</option>
+                                    ))}
+                                </select>
+                            </td>
 
-                        <td>
-                            <p>Select Quantity</p>
-                            <input type="number" placeholder="Quantity" onChange={handleQtyChange} />
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div></>
+                            <td>
+                                <p>Select Quantity</p>
+                                <input type="number" placeholder="Quantity" onChange={handleQtyChange} />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </>
     )
 };
 
@@ -117,7 +118,7 @@ function DisplayData() {
 
     return (
         <div className={shop.bill}>
-            <table border='1px'>
+            <table border='1px' cellSpacing='0px'>
                 <thead>
                     <tr>
                         <th colSpan='3'>
@@ -183,7 +184,7 @@ function DisplayData() {
                     </tr>
                 </tbody>
             </table>
-            
+
             <h3>Visit Again❤️</h3>
         </div>
     )
