@@ -30,7 +30,7 @@ export default function Shopping() {
     };
 
     function handleCreateBill() {
-        const current_date = new Date().toLocaleString()
+        const current_date = new Date().toLocaleDateString()
 
         setUserData([...userData, { "name": name, "date": current_date }])
 
