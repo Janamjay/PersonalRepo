@@ -1,0 +1,38 @@
+.main_container{
+    display: flex;
+    width: 100%;
+}
+
+.right_container{
+    width: 50%;
+    background-color: rgb(61, 190, 233);
+    border: 1px solid black;
+}
+.right_container > table td{
+    padding:  0 10px;
+    background-color: pink;
+}
+
+.left_container{
+    width: 50%;
+    background-color: rgb(61, 190, 233);
+    border: 1px solid black;
+}
+.left_container > table{
+    width: 100%;
+    margin: 0;
+}
+.left_container > table td{
+    padding:  10px 10px;
+    background-color: pink;
+    
+}
+ span{
+    color: red;
+}
+h1{
+    text-align: center;
+    border: 1px solid black;
+    background-color: yellow;
+}
+
