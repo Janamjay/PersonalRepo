@@ -1,4 +1,4 @@
-// 2. Build a multi-page app with React Router that allows users to create and delete notes. Use React Router's Route component to set up the routes for each page. Use the Link component to navigate between the pages
+// 2. Build a multi-page app with React Router that allows users to create ,update and delete notes. Use React Router's Route component to set up the routes for each page. Use the Link component to navigate between the pages
 
 
 
