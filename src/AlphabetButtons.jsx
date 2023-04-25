@@ -10,7 +10,7 @@ const AlphabetButtons = () => {
 
   return (
     <div>
-      {Array.from({ length: 26 }, (_, i) => String.fromCharCode(i + 65)).map((letter) => (
+      {Array.from({ length: 30 }, (_, i) => String.fromCharCode(i + 65)).map((letter) => (
         <button key={letter} onClick={() => handleClick(letter)}>
           {letter}
         </button>
