@@ -27,13 +27,13 @@ function AdminLogin() {
         <input
           className="form-control  mt-3"
           onChange={(e) => setPass(e.target.value)}
-          type="text"
+          type="password"
           placeholder="Password"
         />
         <button className="btn btn-success  mt-5" onClick={handleLogin}>
           Login
         </button>
-        <Link to="/">User Login</Link>
+        <button className="btn btn-success  mt-5 ms-3" > <Link to="/" style={{textDecoration:"none" ,color:"white"}}>User Login</Link></button>
       </div>
     </div>
   );

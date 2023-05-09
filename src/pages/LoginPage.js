@@ -30,10 +30,10 @@ function LoginPage() {
           type="text"
           placeholder="Password"
         />
-        <button className="btn btn-success  mt-5" onClick={handleLogin}>
+        <button className="btn btn-success  mt-5 " onClick={handleLogin}>
           Login
         </button>
-        <Link to="/adminlogin">Admin Login</Link>
+       <button className="btn btn-success  mt-5 ms-3" > <Link to="/adminlogin" style={{textDecoration:"none" ,color:"white"}}>Admin Login</Link></button>
       </div>
     </div>
   );

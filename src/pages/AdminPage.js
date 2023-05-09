@@ -64,6 +64,14 @@ function AdminPage() {
           }
           return item;
         });
+        alert("Submitted The Question");
+            setQuestion("");
+            setOption1("");
+            setOption2("");
+            setOption3("");
+            setOption4("");
+            setRightAns("");
+            setImage("");
 
         localStorage.setItem("questions", JSON.stringify([...qna]));
         setIsUpdation(false);
