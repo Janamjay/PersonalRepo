@@ -1,2 +1,3 @@
-# Admin-Quiz-Website
-Created with CodeSandbox
+# Admin-student-MCQ-
+
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-xuppsj)
