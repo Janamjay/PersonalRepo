@@ -42,21 +42,7 @@ function StudentPage() {
       setIsSubmit(true);
     }
   };
-  //   const handleCheckAnswer = () => {
-  //     for (let i = 0; i < allAnswer.length; i++) {
-  //       for (let j = 0; j < questionsFromLocal.length; j++) {
-  //         if (allAnswer[i].qnaId == questionsFromLocal[j].id) {
-  //           if (allAnswer[i].submittedAns == questionsFromLocal[j].rightAns) {
-  //             setScore(score + 1);
-  //             console.log("score increased");
-  //           }
-  //         }
-  //       }
-  //     }
-
-  //     alert("Submitted", score);
-  //   };
-  //   console.log(allAnswer, score);
+ 
   return (
     <div>
       <h1 className="">STUDENT PAGE</h1>

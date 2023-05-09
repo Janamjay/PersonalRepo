@@ -86,16 +86,6 @@ function AdminPage() {
     setIsUpdation(true);
   };
 
-  // const handleFileInputChange = (event) => {
-  //   const file = event.target.files[0];
-  //   if (file && file.type.startsWith("image/")) {
-  //     setImage(URL.createObjectURL(file));
-  //   } else {
-  //     alert("Please Select a valid image file");
-  //   }
-  //   console.log(image);
-  // };
-
   return (
     <div>
       <Link to="/student">Go to student page</Link>
@@ -170,15 +160,6 @@ function AdminPage() {
           onChange={(e) => setImage(e.target.value)}
           placeholder="Enter the URL images"
         />
-
-        {/* <input
-        className="form-control m-2"
-        style={{ width: "40%" }}
-        type="file"
-        onChange={handleFileInputChange}
-        placeholder="Choose Image"
-      />
-      {image && <img src={image} width={300} height={200} />} */}
         <button className="btn btn-primary" onClick={handleQuesionsubmission}>
           {isUpdation ? "Update" : "Submit"}
         </button>
