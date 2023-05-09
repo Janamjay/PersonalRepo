@@ -1,6 +1,6 @@
 import "./style.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import React, { useEffect } from "react";
+import React from "react";
 import LoginPage from "./pages/LoginPage";
 import AdminLogin from "./pages/AdminLogin";
 import StudentPage from "./pages/StudentPage";
